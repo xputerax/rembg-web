@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "rembg-web"
+version = "0.1.0"
+description = ""
+authors = ["Aiman Daniel <aiman2301@gmail.com>"]
+readme = "README.md"
+packages = [{include = "rembg_web"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+flask = "^3.0.2"
+rembg = "^2.0.56"
+gunicorn = "^21.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
