@@ -12,7 +12,7 @@
 ```
 $ git clone https://github.com/xputerax/rembg-web.git
 $ cd rembg-web
-$ make install
+$ poetry install
 ```
 
 ## Installation (Docker)
@@ -21,8 +21,6 @@ $ make install
 $ cd rembg-web
 $ docker build .
 ```
-
-If you do not have make, just run the `install` section in the Makefile
 
 ## Running
 
